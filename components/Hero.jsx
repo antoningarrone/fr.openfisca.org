@@ -112,8 +112,7 @@ le code législatif en code informatique.
                 }
 
                 li img {
-                    max-width: 1.5em;
-                    vertical-align: middle;
+                    max-height: 1.5em;
                 }
 
                 h3 {

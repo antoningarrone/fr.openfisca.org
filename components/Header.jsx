@@ -42,8 +42,6 @@ const Header = props => (
             <h1>{props.title}</h1>
         </nav>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         <style jsx>
             {`
                 #logo-small {
@@ -90,8 +88,7 @@ const Header = props => (
                 }
 
                 li img {
-                    max-width: 1.5em;
-                    vertical-align: middle;
+                    max-height: 1.5em;
                 }
 
                 @media (max-width: 720px) {

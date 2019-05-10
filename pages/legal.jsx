@@ -1,6 +1,6 @@
 import Layout from "layouts/Layout"
 
-function legal() {
+function Legal() {
     const page = "legal"
     const title = "Mentions légales"
 
@@ -34,4 +34,4 @@ function legal() {
     )
 }
 
-export default legal
+export default Legal

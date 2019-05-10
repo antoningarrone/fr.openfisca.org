@@ -1,6 +1,6 @@
 import Layout from "layouts/Layout"
 
-function cookies() {
+function Cookies() {
     const page = "cookies"
     const title = "Informatique & libertés"
 
@@ -68,4 +68,4 @@ function cookies() {
     )
 }
 
-export default cookies
+export default Cookies

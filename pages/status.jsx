@@ -1,6 +1,6 @@
 import Layout from "layouts/Layout"
 
-function status() {
+function Status() {
     const page = "status"
     const title = "État des services"
 
@@ -26,4 +26,4 @@ function status() {
     )
 }
 
-export default status
+export default Status

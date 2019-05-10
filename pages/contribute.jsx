@@ -1,7 +1,7 @@
 import Layout from "layouts/Layout"
 import Partners from "components/Partners"
 
-function contribute() {
+function Contribute() {
     const page = "contribute"
     const title = "Contribuer"
 
@@ -37,18 +37,18 @@ function contribute() {
                     <a href="https://openfisca.org/doc/publishing.html">la documentation</a>
                     .
                 </p>
-
-                <style jsx>
-                    {`
-                        a {
-                            color: #6d69fb;
-                        }
-                    `}
-                </style>
             </div>
             <Partners />
+
+            <style jsx>
+                {`
+                    a {
+                        color: #6d69fb;
+                    }
+                `}
+            </style>
         </Layout>
     )
 }
 
-export default contribute
+export default Contribute

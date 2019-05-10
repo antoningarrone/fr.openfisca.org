@@ -1,7 +1,7 @@
 import Layout from "layouts/Layout"
 import asset from "next/asset"
 
-function community() {
+function Community() {
     const page = "community"
     const title = "Communauté"
 
@@ -77,24 +77,21 @@ function community() {
                         <a className="btn medium">Recevoir la Newsletter</a>
                     </div>
                 </section>
-
-                <style jsx>
-                    {`
-                    medium {
-                      display: flex;
-                    }
-
-                    @media(min-width: 40rem) {
-                      .flex__item50 {
-                        width: 50%;
-                        padding-left: 1rem;
-                        display: flex;
-                    }
-                `}
-                </style>
             </div>
+
+            <style jsx>
+                {`
+                    @media(min-width: 40rem) {
+                        .flex__item50 {
+                            width: 50%;
+                            padding-left: 1rem;
+                            display: flex;
+                        }
+                    }
+            `}
+            </style>
         </Layout>
     )
 }
 
-export default community
+export default Community

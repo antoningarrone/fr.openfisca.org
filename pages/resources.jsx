@@ -1,7 +1,7 @@
 import Layout from "layouts/Layout"
 import CardResource from "components/CardResource"
 
-function resources() {
+function Resources() {
     const page = "resources"
     const title = "Ressources"
 
@@ -72,19 +72,19 @@ function resources() {
 
             <style jsx>
                 {`
-                .flex__container {
-                    flex-wrap: wrap;
-                }
-
-                @media (min-width: 40rem) {
-                    .flex__item:nth-child(3n + 1) {
-                        padding-left: 0;
+                    .flex__container {
+                        flex-wrap: wrap;
                     }
-                }
+
+                    @media (min-width: 40rem) {
+                        .flex__item:nth-child(3n + 1) {
+                            padding-left: 0;
+                        }
+                    }
             `}
             </style>
         </Layout>
     )
 }
 
-export default resources
+export default Resources

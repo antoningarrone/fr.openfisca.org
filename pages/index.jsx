@@ -2,7 +2,7 @@ import Home from "layouts/Home"
 import Hero from "components/Hero"
 import Partners from "components/Partners"
 
-function index() {
+function Index() {
     const page = "HomePage"
     const title = "Accueil"
 
@@ -114,52 +114,52 @@ function index() {
 
             <style jsx>
                 {`
-                section {
-                    margin-bottom: 6em;
-                }
-
-                li {
-                    list-style: none;
-                }
-
-                .card img {
-                    width: 3em;
-                }
-
-                .card h3 {
-                    display: flex;
-                }
-
-                .flex__item50 li {
-                    list-style-image: url("/static/items/bullet.svg");
-                    padding: 1rem;
-                }
-
-                .flex__column {
-                    display: flex;
-                    flex-direction: column;
-                    padding-left: 1rem;
-                }
-
-                @media (max-width: 50rem) {
-                    //small screen (50rem = 600px with font 12)
-                    .flex__container {
-                        flex-flow: row wrap;
+                    section {
+                        margin-bottom: 6em;
                     }
-                }
 
-                @media (min-width: 75rem) {
-                    //wide screen (75rem = 900px with font 12)
-                    .flex__item50 {
+                    li {
+                        list-style: none;
+                    }
+
+                    .card img {
+                        width: 3em;
+                    }
+
+                    .card h3 {
                         display: flex;
-                        padding-left: 1rem;
-                        width: 50%;
                     }
-                }
-            `}
+
+                    .flex__item50 li {
+                        list-style-image: url("/static/items/bullet.svg");
+                        padding: 1rem;
+                    }
+
+                    .flex__column {
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 1rem;
+                    }
+
+                    @media (max-width: 50rem) {
+                        //small screen (50rem = 600px with font 12)
+                        .flex__container {
+                            flex-flow: row wrap;
+                        }
+                    }
+
+                    @media (min-width: 75rem) {
+                        //wide screen (75rem = 900px with font 12)
+                        .flex__item50 {
+                            display: flex;
+                            padding-left: 1rem;
+                            width: 50%;
+                        }
+                    }
+                `}
             </style>
         </Home>
     )
 }
 
-export default index
+export default Index
