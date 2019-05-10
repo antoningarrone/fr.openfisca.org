@@ -1,11 +1,14 @@
-import Link from 'next/link'
+import Link from "next/link"
 
 const Footer = () => (
     <div>
         <footer>
             <div className="baseline">
                 <h3>Transformer le code législatif en code logiciel</h3>
-                <a href="https://openfisca.org/doc/" className="btn CTA">Commencer <img src="/static/icons/Rocket.svg"></img></a>
+                <a href="https://openfisca.org/doc/" className="btn CTA">
+                    Commencer
+                    <img src="/static/icons/Rocket.svg" />
+                </a>
             </div>
             <ul>
                 <li><Link href="/status" passHref>Etat des services</Link></li>
@@ -14,15 +17,16 @@ const Footer = () => (
                 <li><Link href="/contribute" passHref>Contribuer</Link></li>
             </ul>
             <ul className="social">
-                <li><a href="mailto:contact@openfisca.org?Subject=openfisca.org" passHref><img src="/static/icons/Email.svg" alt="Envoyer un email"></img></a></li>
-                <li><a href="https://github.com/openfisca" passHref><img src="/static/icons/Github.svg" alt="GitHub"></img></a></li>
-                <li><a href="https://forms.gle/XFxiFvfaAa6w7LGy7" passHref><img src="/static/icons/Slack.svg" alt="Slack"></img></a></li>
-                <li><a href="https://twitter.com/openfisca" passHref><img src="/static/icons/Twitter.svg" alt="Twitter"></img></a></li>
+                <li><a href="mailto:contact@openfisca.org?Subject=openfisca.org" passHref><img src="/static/icons/Email.svg" alt="Envoyer un email" /></a></li>
+                <li><a href="https://github.com/openfisca" passHref><img src="/static/icons/Github.svg" alt="GitHub" /></a></li>
+                <li><a href="https://forms.gle/XFxiFvfaAa6w7LGy7" passHref><img src="/static/icons/Slack.svg" alt="Slack" /></a></li>
+                <li><a href="https://twitter.com/openfisca" passHref><img src="/static/icons/Twitter.svg" alt="Twitter" /></a></li>
             </ul>
 
         </footer>
 
-        <style jsx>{`
+        <style jsx>
+            {`
 			footer {
 				background: #6d69fb; /* Old browsers */
 				background: -moz-linear-gradient(163.99deg, #00BAAF -21.24%, #6D69FB 76.56%, #6D69FB 83.4%); /* FF3.6-15 */
@@ -78,9 +82,9 @@ const Footer = () => (
 					align-items: center;
 				}
 			}
-		`}</style>
+		`}
+        </style>
     </div>
 )
 
 export default Footer
-

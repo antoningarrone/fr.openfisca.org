@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import asset from 'next/asset'
-import GlobalStyle from '../components/GlobalStyle'
-import Header from '../components/Header'
-import Partners from '../components/Partners'
-import Footer from '../components/Footer'
-import Piwik from '../components/Piwik'
+import Head from "next/head"
+import asset from "next/asset"
+import GlobalStyle from "../components/GlobalStyle"
+import Header from "../components/Header"
+import Partners from "../components/Partners"
+import Footer from "../components/Footer"
+import Piwik from "../components/Piwik"
 
 const Communaute = () => (
     <div className="content">
@@ -19,7 +19,7 @@ const Communaute = () => (
                     </p>
                 </div>
                 <div className="flex__item50">
-                    <img src={asset('/images/community.png')} alt=""/>
+                    <img src={asset("/images/community.png")} alt="" />
                 </div>
             </div>
         </section>
@@ -61,7 +61,8 @@ const Communaute = () => (
             </div>
         </section>
 
-        <style jsx>{`
+        <style jsx>
+            {`
             medium {
               display: flex;
             }
@@ -72,7 +73,8 @@ const Communaute = () => (
                 padding-left: 1rem;
                 display: flex;
             }
-        `}</style>
+        `}
+        </style>
     </div>
 )
 
@@ -82,11 +84,11 @@ export default () => (
             <title>Communauté</title>
             <meta name="viewport" key="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <GlobalStyle/>
+        <GlobalStyle />
         <Header page="community" title="Communauté" />
         <Communaute />
-        <Partners/>
+        <Partners />
         <Footer />
-        <Piwik page="community"/>
+        <Piwik page="community" />
     </div>
 )

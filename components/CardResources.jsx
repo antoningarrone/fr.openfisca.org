@@ -1,15 +1,19 @@
-const CardResources = (props) => (
+const CardResources = props => (
     <div className="card-container">
         <div className="card-desc">
             <p className="Medium">{props.title}</p>
-            <p className="Small"><img src={props.img} alt="" />{props.desc}</p>
+            <p className="Small">
+                <img src={props.img} alt="" />
+                {props.desc}
+            </p>
         </div>
         <div className="card-links">
             <a href={props.linkexplorer}>Explorer</a>
             <a href={props.linkgit}>Voir sur GitHub</a>
         </div>
 
-        <style jsx>{`
+        <style jsx>
+            {`
 
             .card-container {
                 background-color: #ffffff;
@@ -38,7 +42,8 @@ const CardResources = (props) => (
                 flex-direction: row;
                 background-color: #6d69fb;
             }
-        `}</style>
+        `}
+        </style>
     </div>
 )
 

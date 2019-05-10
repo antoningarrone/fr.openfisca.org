@@ -1,9 +1,10 @@
-import Head from 'next/head'
+import Head from "next/head"
 
 const GlobalStyle = () => (
     <div>
-        <Head></Head>
-        <style jsx global>{`
+        <Head />
+        <style jsx global>
+            {`
 
     *,
     *::before,
@@ -311,7 +312,8 @@ const GlobalStyle = () => (
 
       // responsive
 			}
-    `}</style>
+    `}
+        </style>
     </div>
 )
 
