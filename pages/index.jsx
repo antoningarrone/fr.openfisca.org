@@ -17,15 +17,17 @@ const Home = () => (
                             Économistes & chercheurs
                         </h3>
                         Utilisez des systèmes socio-fiscaux déjà modélisés et codez vos réformes.
-                        Faites des simulations individuelles et sur des populations en important vos propres données.
+                        Faites des simulations individuelles et sur des populations en important vos
+                        propres données.
                     </li>
                     <li className="card">
                         <h3 className="">
                             <img className="" src="/static/icons/admin.svg" alt="" />
                             Administrations publiques
                         </h3>
-                        Mutualisez vos efforts de mise à jour grâce au modèle contributif d’OpenFisca.
-                        Échangez sur une même base avec d’autres administrations publiques.
+                        Mutualisez vos efforts de mise à jour grâce au modèle contributif
+                        d’OpenFisca. Échangez sur une même base avec d’autres administrations
+                        publiques.
                     </li>
                     <li className="card">
                         <h3>
@@ -33,17 +35,21 @@ const Home = () => (
                             Développeurs & équipes d&#39;innovation
                         </h3>
                         Interrogez l&#39;API sans installation ou hébergez votre propre instance.
-                        Créez des produits qui interrogent l&#39;ensemble des règles socio-fiscales avec Python3.
+                        Créez des produits qui interrogent l&#39;ensemble des règles socio-fiscales
+                        avec Python3.
                     </li>
                 </ul>
-                <a className="btn medium" href="/showcase/">Voir des projets</a>
+                <a className="btn medium" href="/showcase/">
+                    Voir des projets
+                </a>
             </div>
         </section>
         <section>
             <h2>Comment ça marche ?</h2>
             <p>
-                OpenFisca est un projet Open Source libre et gratuit, modulable et réutilisable.
-                Il permet de modéliser le code législatif en code informatique, pour améliorer la transparence et l’accès à la loi.
+                OpenFisca est un projet Open Source libre et gratuit, modulable et réutilisable. Il
+                permet de modéliser le code législatif en code informatique, pour améliorer la
+                transparence et l’accès à la loi.
             </p>
             <div className="flex__container">
                 <div className="flex__item50">
@@ -54,7 +60,9 @@ const Home = () => (
                         <li>Utilisez un système socio-fiscal existant</li>
                         <li>Codez votre propre système</li>
                         <li>Améliorez le code d’un système existant</li>
-                        <a className="btn medium" href="resources">Voir les systèmes socio-fiscaux</a>
+                        <a className="btn medium" href="resources">
+                            Voir les systèmes socio-fiscaux
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -66,7 +74,12 @@ const Home = () => (
                         <li>Importez des données</li>
                         <li>Calculez une situation ou écrivez et simulez une réforme</li>
                         <li>Codez des extensions</li>
-                        <a className="btn medium" href="https://fr.openfisca.org/legislation/swagger">Tester l&#39;API web</a>
+                        <a
+                            className="btn medium"
+                            href="https://fr.openfisca.org/legislation/swagger"
+                        >
+                            Tester l&#39;API web
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -80,8 +93,10 @@ const Home = () => (
             <div className="flex__container">
                 <div className="flex__item50">
                     <p>
-                        OpenFisca a des contributeurs partout dans le monde !
-                        Rejoignez une communauté d&#39;économistes, de chercheurs, de développeurs et d’experts des droits sociaux qui s&#39;engagent dans la transformation de la loi en code informatique !
+                        OpenFisca a des contributeurs partout dans le monde ! Rejoignez une
+                        communauté d&#39;économistes, de chercheurs, de développeurs et d’experts
+                        des droits sociaux qui s&#39;engagent dans la transformation de la loi en
+                        code informatique !
                     </p>
                 </div>
                 <div className="flex__item50">
@@ -92,49 +107,49 @@ const Home = () => (
 
         <style jsx>
             {`
+                section {
+                    margin-bottom: 6em;
+                }
 
-      section {
-        margin-bottom: 6em;
-      }
+                li {
+                    list-style: none;
+                }
 
-      li {
-        list-style: none;
-      }
+                .card img {
+                    width: 3em;
+                }
 
-      .card img {
-        width: 3em;
-      }
+                .card h3 {
+                    display: flex;
+                }
 
-      .card h3 {
-        display: flex;
-      }
+                .flex__item50 li {
+                    list-style-image: url(/static/items/bullet.svg);
+                    padding: 1rem;
+                }
 
-      .flex__item50 li {
-        list-style-image : url(/static/items/bullet.svg);
-        padding: 1rem;
-      }
+                .flex__column {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 1rem;
+                }
 
-      .flex__column {
-        display: flex;
-        flex-direction: column;
-        padding-left: 1rem;
-      }
+                @media (max-width: 50rem) {
+                    //small screen (50rem = 600px with font 12)
+                    .flex__container {
+                        flex-flow: row wrap;
+                    }
+                }
 
-      @media(max-width: 50rem) { //small screen (50rem = 600px with font 12)
-        .flex__container {
-          flex-flow: row wrap;
-        }
-      }
-
-      @media(min-width: 75rem) { //wide screen (75rem = 900px with font 12)
-        .flex__item50 {
-          width: 50%;
-          padding-left: 1rem;
-          display: flex;
-        }
-      }
-
-    `}
+                @media (min-width: 75rem) {
+                    //wide screen (75rem = 900px with font 12)
+                    .flex__item50 {
+                        width: 50%;
+                        padding-left: 1rem;
+                        display: flex;
+                    }
+                }
+            `}
         </style>
     </div>
 )

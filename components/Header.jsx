@@ -9,9 +9,21 @@ const Header = props => (
                 <img id="logo-small" src={asset("/images/logo_mini.svg")} />
             </Link>
             <ul>
-                <li><Link href="/showcase/" passHref><a className="menu">Projets</a></Link></li>
-                <li><Link href="/resources" passHref><a className="menu">Ressources</a></Link></li>
-                <li><Link href="/community" passHref><a className="menu">Communauté</a></Link></li>
+                <li>
+                    <Link href="/showcase/" passHref>
+                        <a className="menu">Projets</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/resources" passHref>
+                        <a className="menu">Ressources</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/community" passHref>
+                        <a className="menu">Communauté</a>
+                    </Link>
+                </li>
                 <li>
                     <a className="btn outline" href="https://github.com/openfisca/openfisca-france">
                         Code source
@@ -20,7 +32,7 @@ const Header = props => (
                 </li>
                 <li>
                     <Link href="https://openfisca.org/doc/" passHref>
-                        <a className="btn CTA">
+                        <a className="btn cta">
                             Commencer
                             <img src={asset("/icons/Rocket.svg")} />
                         </a>
@@ -34,51 +46,66 @@ const Header = props => (
 
         <style jsx>
             {`
-			#logo-small {
-				max-width: 3em;
-				margin: 1em;
-				cursor:pointer;
-			}
+                #logo-small {
+                    max-width: 3em;
+                    margin: 1em;
+                    cursor: pointer;
+                }
 
-			header {
-				background: #6d69fb; /* Old browsers */
-				background: -moz-linear-gradient(163.99deg, #00BAAF -21.24%, #6D69FB 76.56%, #6D69FB 83.4%); /* FF3.6-15 */
-				background: -webkit-linear-gradient(163.99deg, #00BAAF -21.24%, #6D69FB 76.56%, #6D69FB 83.4%); /* Chrome10-25,Safari5.1-6 */
-				background: linear-gradient(163.99deg, #00BAAF -21.24%, #6D69FB 76.56%, #6D69FB 83.4%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d69fb', endColorstr='#00baaf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-			}
+                header {
+                    background: #6d69fb; /* Old browsers */
+                    background: -moz-linear-gradient(
+                        163.99deg,
+                        #00baaf -21.24%,
+                        #6d69fb 76.56%,
+                        #6d69fb 83.4%
+                    ); /* FF3.6-15 */
+                    background: -webkit-linear-gradient(
+                        163.99deg,
+                        #00baaf -21.24%,
+                        #6d69fb 76.56%,
+                        #6d69fb 83.4%
+                    ); /* Chrome10-25,Safari5.1-6 */
+                    background: linear-gradient(
+                        163.99deg,
+                        #00baaf -21.24%,
+                        #6d69fb 76.56%,
+                        #6d69fb 83.4%
+                    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d69fb', endColorstr='#00baaf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                }
 
-      		ul {
-				list-style-type: none;
-				margin:0em;
-				min-height: 3em;
-				display: flex;
-				align-items : first baseline;
-				float: right;
-			}
+                ul {
+                    list-style-type: none;
+                    margin: 0em;
+                    min-height: 3em;
+                    display: flex;
+                    align-items: first baseline;
+                    float: right;
+                }
 
-			li {
-				display: inline;
-				list-style: none;
-			}
+                li {
+                    display: inline;
+                    list-style: none;
+                }
 
-			li img {
-				max-width: 1.5em;
-        		vertical-align: middle;
-			}
+                li img {
+                    max-width: 1.5em;
+                    vertical-align: middle;
+                }
 
-			@media (max-width: 720px) {
-				header{
-					flex-direction: column;
-					justyfy-content: stretch;
-				}
-				ul {
-       				padding: 0;
-          			flex-direction: column;
-          			align-items: center;
-				}
-			}
-		`}
+                @media (max-width: 720px) {
+                    header {
+                        flex-direction: column;
+                        justyfy-content: stretch;
+                    }
+                    ul {
+                        padding: 0;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+            `}
         </style>
     </header>
 )

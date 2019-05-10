@@ -13,9 +13,12 @@ const Communaute = () => (
             <div className="flex__container">
                 <div className="flex__item50">
                     <p>
-                        OpenFisca est une communauté Open Source soutenue par Beta Gouv & Etalab, deux équipes d’innovation au sein du gouvernement français.
-                        En 2019, OpenFisca est utilisée par 7 pays dans le monde (France, Espagne, Italie, Nouvelle Zélande, Sénégal & Tunisie).
-                        Plus de 70 personnes ont rejoint cette aventure. Ils contribuent, s’entraident et participent chaque jour à améliorer le code d’OpenFisca.
+                        OpenFisca est une communauté Open Source soutenue par Beta Gouv & Etalab,
+                        deux équipes d’innovation au sein du gouvernement français. En 2019,
+                        OpenFisca est utilisée par 7 pays dans le monde (France, Espagne, Italie,
+                        Nouvelle Zélande, Sénégal & Tunisie). Plus de 70 personnes ont rejoint cette
+                        aventure. Ils contribuent, s’entraident et participent chaque jour à
+                        améliorer le code d’OpenFisca.
                     </p>
                 </div>
                 <div className="flex__item50">
@@ -29,11 +32,16 @@ const Communaute = () => (
             <div className="flex__column">
                 <div className="flex__item50">
                     <p>
-                        Lorsque vous travaillez sur un projet utilisant OpenFisca, vous êtes le bienvenue sur notre Slack ! Vous pourrez y demander de l’aide, des conseils et rencontrer les autres membres de la communauté.
-                        Avant de vous inviter sur le Slack, nous vous demandons simplement de répondre à quelques questions sur votre projet.
+                        Lorsque vous travaillez sur un projet utilisant OpenFisca, vous êtes le
+                        bienvenue sur notre Slack ! Vous pourrez y demander de l’aide, des conseils
+                        et rencontrer les autres membres de la communauté. Avant de vous inviter sur
+                        le Slack, nous vous demandons simplement de répondre à quelques questions
+                        sur votre projet.
                     </p>
                 </div>
-                <a className="btn medium" href="https://forms.gle/XFxiFvfaAa6w7LGy7">Rejoindre le Slack</a>
+                <a className="btn medium" href="https://forms.gle/XFxiFvfaAa6w7LGy7">
+                    Rejoindre le Slack
+                </a>
             </div>
         </section>
 
@@ -41,10 +49,18 @@ const Communaute = () => (
             <h2>Écrivez-nous</h2>
             <div className="flex__column">
                 <div className="flex__item50">
-                    <p>Pour toute question ou pour toute demande de collaboration, n&#39;hésitez pas à nous joindre par email.</p>
+                    <p>
+                        Pour toute question ou pour toute demande de collaboration, n&#39;hésitez
+                        pas à nous joindre par email.
+                    </p>
                 </div>
                 <div>
-                    <a className="btn medium" href="mailto:%63%6fn&#116;&#97;%63%74&#64;%6f%70%65%6efi&#115;&#99;a%2e&#111;&#114;&#103;">Contact</a>
+                    <a
+                        className="btn medium"
+                        href="mailto:%63%6fn&#116;&#97;%63%74&#64;%6f%70%65%6efi&#115;&#99;a%2e&#111;&#114;&#103;"
+                    >
+                        Contact
+                    </a>
                 </div>
             </div>
         </section>
@@ -54,7 +70,8 @@ const Communaute = () => (
             <div className="flex__column">
                 <div className="flex__item50">
                     <p>
-                        Vous pouvez vous abonner à notre newsletter mensuelle pour recevoir les actualités et les changements majeurs opérés sur OpenFisca.
+                        Vous pouvez vous abonner à notre newsletter mensuelle pour recevoir les
+                        actualités et les changements majeurs opérés sur OpenFisca.
                     </p>
                 </div>
                 <a className="btn medium">Recevoir la Newsletter</a>

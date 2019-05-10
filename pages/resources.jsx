@@ -6,7 +6,6 @@ import Piwik from "../components/Piwik"
 import CardResources from "../components/CardResources"
 import CardResourcesmin from "../components/CardResourcesmin"
 
-
 const Resources = () => (
     <div className="content">
         <ul className="flex__container">
@@ -82,12 +81,12 @@ const Resources = () => (
 
         <style jsx>
             {`
-            @media (max-width: 720px) {
-              #content {
-                padding: 0 1em 1em 1em;
-              }
-            }
-        `}
+                @media (max-width: 720px) {
+                    #content {
+                        padding: 0 1em 1em 1em;
+                    }
+                }
+            `}
         </style>
     </div>
 )

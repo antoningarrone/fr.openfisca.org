@@ -29,11 +29,7 @@ const Legal = () => (
             <br />
         </p>
 
-        <style jsx>
-            {`
-
-        `}
-        </style>
+        <style jsx />
     </div>
 )
 
