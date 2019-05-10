@@ -1,47 +1,36 @@
-import Head from "next/head"
-import Header from "components/Header"
-import Footer from "components/Footer"
-import Piwik from "components/Piwik"
+import Layout from "layouts/Layout"
 import "styles/theme.scss"
 
-const Legal = () => (
-    <div className="content">
-        <h2>Responsable de la publication</h2>
-        <p>
-            Laure Lucchesi
-            <br />
-            Directrice d’Etalab
-            <br />
-            20, avenue de Ségur
-            <br />
-            75007 Paris
-            <br />
-            <a href="https://www.etalab.gouv.fr">https://www.etalab.gouv.fr</a>
-        </p>
+function legal() {
+    const page = "legal"
+    const title = "Mentions légales"
 
-        <h2>Hébergeur</h2>
-        <p>
-            Netlify
-            <br />
-            2325 3rd St Suite 215
-            <br />
-            San Francisco, CA 94107, États-Unis
-            <br />
-        </p>
+    return (
+        <Layout page={page} title={title}>
+            <h2>Responsable de la publication</h2>
+            <p>
+                Laure Lucchesi
+                <br />
+                Directrice d’Etalab
+                <br />
+                20, avenue de Ségur
+                <br />
+                75007 Paris
+                <br />
+                <a href="https://www.etalab.gouv.fr">https://www.etalab.gouv.fr</a>
+            </p>
 
-        <style jsx />
-    </div>
-)
+            <h2>Hébergeur</h2>
+            <p>
+                Netlify
+                <br />
+                2325 3rd St Suite 215
+                <br />
+                San Francisco, CA 94107, États-Unis
+                <br />
+            </p>
+        </Layout>
+    )
+}
 
-export default () => (
-    <div>
-        <Head>
-            <title>Mentions légales</title>
-            <meta name="viewport" key="viewport" content="initial-scale=1.0, width=device-width" />
-        </Head>
-        <Header title="Mentions légales" page="legal" />
-        <Legal />
-        <Footer />
-        <Piwik page="legal" />
-    </div>
-)
+export default legal
