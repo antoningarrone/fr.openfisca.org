@@ -1,12 +1,12 @@
-import Theme from "components/Theme"
+import Layout from "layouts/Layout"
 import "styles/theme.scss"
 
-function Status() {
+function status() {
     const page = "status"
     const title = "État des services"
 
     return (
-        <Theme page={page} title={title}>
+        <Layout page={page} title={title}>
             <h1>{title}</h1>
             <div id="iframe-container">
                 <iframe
@@ -21,8 +21,8 @@ function Status() {
                     }}
                 />
             </div>
-        </Theme>
+        </Layout>
     )
 }
 
-export default Status
+export default status

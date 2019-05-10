@@ -1,4 +1,4 @@
-const CardResources = props => (
+const CardResource = props => (
     <div className="card-container">
         <div className="card-desc">
             <p className="medium">{props.title}</p>
@@ -8,7 +8,7 @@ const CardResources = props => (
             </p>
         </div>
         <div className="card-links">
-            <a href={props.linkexplorer}>Explorer</a>
+            {props.linkexplorer && <a href={props.linkexplorer}>Explorer</a>}
             <a href={props.linkgit}>Voir sur GitHub</a>
         </div>
 
@@ -46,4 +46,4 @@ const CardResources = props => (
     </div>
 )
 
-export default CardResources
+export default CardResource
