@@ -1,10 +1,10 @@
 import Head from "next/head"
-import GlobalStyle from "../../components/GlobalStyle"
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import Piwik from "../../components/Piwik"
 import ProjectDesc from "../../components/ProjectDesc"
 import ProjectAttribute from "../../components/ProjectAttribute"
+import "styles/global.scss"
 
 const Ratesrebates = () => (
     <div className="content">
@@ -57,7 +57,6 @@ export default () => (
             <title>Rates rebates</title>
             <meta name="viewport" key="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <GlobalStyle />
         <Header page="ratesrebates" title="Rates rebates" />
         <Ratesrebates />
         <Footer />

@@ -1,9 +1,9 @@
 import Head from "next/head"
-import GlobalStyle from "../components/GlobalStyle"
-import Piwik from "../components/Piwik"
-import Partners from "../components/Partners"
-import Footer from "../components/Footer"
-import Hero from "../components/Hero"
+import Piwik from "components/Piwik"
+import Partners from "components/Partners"
+import Footer from "components/Footer"
+import Hero from "components/Hero"
+import "styles/global.scss"
 
 const Home = () => (
     <div className="content">
@@ -160,7 +160,6 @@ export default () => (
             <title>Accueil</title>
             <meta name="viewport" key="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <GlobalStyle />
         <Hero />
         <Home />
         <Partners />

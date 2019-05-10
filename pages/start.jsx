@@ -1,8 +1,8 @@
 import Head from "next/head"
-import GlobalStyle from "../components/GlobalStyle"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import Piwik from "../components/Piwik"
+import Header from "components/Header"
+import Footer from "components/Footer"
+import Piwik from "components/Piwik"
+import "styles/global.scss"
 
 const Start = () => (
     <div className="content">
@@ -30,7 +30,6 @@ export default () => (
             <title>Commencer</title>
             <meta name="viewport" key="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <GlobalStyle />
         <Header page="start" title="Commencer" />
         <Start />
         <Footer />

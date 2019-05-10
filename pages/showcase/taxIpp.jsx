@@ -1,10 +1,10 @@
 import Head from "next/head"
-import GlobalStyle from "../../components/GlobalStyle"
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import Piwik from "../../components/Piwik"
 import ProjectDesc from "../../components/ProjectDesc"
 import ProjectAttribute from "../../components/ProjectAttribute"
+import "styles/global.scss"
 
 const Taxipp = () => (
     <div className="content">
@@ -51,13 +51,13 @@ const Taxipp = () => (
         </style>
     </div>
 )
+
 export default () => (
     <div>
         <Head>
             <title>TaxIPP</title>
             <meta name="viewport" key="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <GlobalStyle />
         <Header page="tafipp" title="TaxIPP" />
         <Taxipp />
         <Footer />

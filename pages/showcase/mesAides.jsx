@@ -1,10 +1,10 @@
 import Head from "next/head"
-import GlobalStyle from "../../components/GlobalStyle"
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import ProjectDesc from "../../components/ProjectDesc"
 import ProjectAttribute from "../../components/ProjectAttribute"
 import Piwik from "../../components/Piwik"
+import "styles/global.scss"
 
 const Mesaides = () => (
     <div className="content">
@@ -56,7 +56,6 @@ export default () => (
             <title>MesAides</title>
             <meta name="viewport" key="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <GlobalStyle />
         <Header page="mesaides" title="MesAides" />
         <Mesaides />
         <Footer />

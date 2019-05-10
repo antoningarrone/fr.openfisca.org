@@ -1,8 +1,8 @@
 import Head from "next/head"
-import GlobalStyle from "../components/GlobalStyle"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import Piwik from "../components/Piwik"
+import Header from "components/Header"
+import Footer from "components/Footer"
+import Piwik from "components/Piwik"
+import "styles/global.scss"
 
 const Cookies = () => (
     <div className="content">
@@ -65,7 +65,6 @@ export default () => (
         <Header page="cookies" title="Informatique & libertés" />
         <Cookies />
         <Footer />
-        <GlobalStyle />
         <Piwik page="cookies" />
     </div>
 )

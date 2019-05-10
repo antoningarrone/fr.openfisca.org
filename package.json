@@ -25,11 +25,14 @@
     "autoprefixer": "^9.5.1",
     "bootstrap": "^4.3.1",
     "next": "^7.0.2",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-wrap-in-js": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-fp": "^2.3.0",
