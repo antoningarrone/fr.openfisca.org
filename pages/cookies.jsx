@@ -2,7 +2,6 @@ import Head from "next/head"
 import Header from "components/Header"
 import Footer from "components/Footer"
 import Piwik from "components/Piwik"
-import "styles/theme.scss"
 
 const Cookies = () => (
     <div className="content">
