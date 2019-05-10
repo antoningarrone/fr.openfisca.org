@@ -16,10 +16,10 @@ const Contribuer = () => (
             d’autres membres ont le même besoin que vous.
         </p>
 
-        <h2>Parler d&#39;OpenFisca</h2>
+        <h2>Parler d’OpenFisca</h2>
         <p>
-            Vous souhaitez présenter OpenFisca à quelqu&#39;un ? Vous voulez convaincre
-            quelqu&#39;un de l&#39;utiliser ? Vous écrivez un article à propos d&#39;OpenFisca ?
+            Vous souhaitez présenter OpenFisca à quelqu’un ? Vous voulez convaincre
+            quelqu’un de l’utiliser ? Vous écrivez un article à propos d’OpenFisca ?
             Utilisez notre
             {" "}
             <a href="https://drive.google.com/open?id=1eGa4PphlDCSzhGSTFDhG6CGRafJi6cAj3vlD7wNw2NM">

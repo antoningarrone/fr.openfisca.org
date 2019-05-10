@@ -35,7 +35,7 @@ function index() {
                             <li className="card">
                                 <h3>
                                     <img src="/static/icons/dev.svg" alt="" />
-                                    Développeurs & équipes d&#39;innovation
+                                    Développeurs & équipes d’innovation
                                 </h3>
                                 Interrogez l’API sans installation ou hébergez votre propre
                                 instance. Créez des produits qui interrogent l’ensemble des règles
@@ -83,7 +83,7 @@ function index() {
                                     className="btn medium"
                                     href="https://fr.openfisca.org/legislation/swagger"
                                 >
-                                    Tester l&#39;API web
+                                    Tester l’API web
                                 </a>
                             </ul>
                         </div>

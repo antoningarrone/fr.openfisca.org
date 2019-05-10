@@ -49,7 +49,7 @@ const Communaute = () => (
             <div className="flex__column">
                 <div className="flex__item50">
                     <p>
-                        Pour toute question ou pour toute demande de collaboration, n&#39;hésitez
+                        Pour toute question ou pour toute demande de collaboration, n’hésitez
                         pas à nous joindre par email.
                     </p>
                 </div>
